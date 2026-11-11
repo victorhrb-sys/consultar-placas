@@ -1,12 +1,14 @@
 # Consultar Placas
 
-Uma interface para transformar placas digitadas, textos e PDFs em uma lista revisável de consultas veiculares.
+O projeto surgiu de uma demanda do **CIVITAS, central de inteligência para auxílio a investigações**: consultar múltiplas placas em um único fluxo, sem precisar organizar e pesquisar cada uma manualmente.
+
+A solução integra a **API da OpenAI**, que interpreta os documentos e extrai as placas, à **API de placas**, que retorna os dados veiculares. Entre a extração e a consulta, a pessoa revisa os registros, seleciona as placas e confere o custo do lote.
 
 **O foco do projeto:** manter a pessoa no controle do que será consultado e do custo, sem pedir que ela organize cada placa manualmente.
 
 > Este repositório é uma edição de portfólio. A aplicação operacional é privada. A demonstração usa apenas dados fictícios, não envia documentos e não acessa APIs externas.
 
-![Interface com revisão de placas e resultados fictícios](docs/demonstracao.jpg)
+![Interface com revisão de placas e resultados fictícios](docs/demonstracao-detalhe.jpg)
 
 ## Experimente em dois minutos
 
